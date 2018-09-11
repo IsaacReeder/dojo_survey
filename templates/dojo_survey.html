@@ -1,0 +1,25 @@
+<html>
+    <head>
+       <title>Form Test Index</title>
+    </head>
+    <body>
+      <h1>Index Page</h1>
+      <h3>Create a User</h3>
+      <!-- read on to learn about form actions, we'll talk about the method in a later section -->
+      <form action='/result' method='post'>
+            <h2>Buy apples</h2>
+            Quantity: 
+            <select name='quantity'>
+                 <option value='1'>1</option>
+                 <option value='2'>2</option>
+            </select>
+            Message: <textarea name='message'></textarea>
+            <input type='checkbox' name='extra_large' value='yes'> Want extra large apples?
+            <p>Please select your preferred contact method:</p>
+            <input type='text' name='name' value='email'>Name
+            <input type='text' name='email' value='email'>Email
+            <input type='radio' name='contact' value='phone'>Phone
+            <input type='submit' value='Submit'>
+        </form>
+    </body>
+</html>
